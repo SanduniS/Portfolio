@@ -16,7 +16,7 @@ const Skills = () => {
         <h2 className="text-3xl font-bold text-center mb-4 text-gray-200">
           My <span className="text-purple-500">Skills</span>
         </h2>
-        <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">
+        <p className="text-gray-300 text-center max-w-2xl mx-auto mb-16">
           Technologies I work with to bring ideas to life
         </p>
 
@@ -24,14 +24,14 @@ const Skills = () => {
           {skillsData.map((skill, index) => {
             const Icon = skill.tags[0]?.icon; // example, if you want to show first icon
             return (
-              <div key={index} className="bg-dark-300 rounded-2xl p-6 skill-card hover:-translate-y-2 transition duration-300 cursor-pointer">
+              <div key={index} className="bg-neutral-800 rounded-2xl p-6 skill-card hover:-translate-y-2 transition duration-300 cursor-pointer">
                 <div className="flex items-center mb-4">
-                  {Icon && <Icon className="w-12 h-12 text-purple mr-6" />}
-                  <h3 className="text-xl font-semibold">{skill.title}</h3>
+                  {Icon && <Icon className="w-12 h-12 text-purple-500 mr-6" />}
+                  <h3 className="text-xl font-semibold text-gray-50">{skill.title}</h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {skill.tags.map((tech, i) => (
-                    <span key={i} className="px-3 py-1 bg-dark-400 rounded-full text-sm">{tech.name}</span>
+                    <span key={i} className="px-3 py-1 bg-purple-600 rounded-full text-sm text-gray-50">{tech.name}</span>
                   ))}
                 </div>
               </div>

@@ -23,6 +23,10 @@ const Navbar = () => {
                         <span>About</span>
                         <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
                     </a>
+                     <a href="#education" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                        <span>Education</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
+                    </a>
                     <a href="#skills" className="relative text-white/80 transition duration-300 hover:text-purple group">
                         <span>Skills</span>
                         <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
@@ -34,6 +38,10 @@ const Navbar = () => {
 
                     <a href="#experience" className="relative text-white/80 transition duration-300 hover:text-purple group">
                         <span>Experience</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                     <a href="#volunteering" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                        <span>Volunteering</span>
                         <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
                     </a>
                     <a href="#contact" className="relative text-white/80 transition duration-300 hover:text-purple group">
@@ -66,6 +74,10 @@ const Navbar = () => {
                         <span>About</span>
                         <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
                     </a>
+                    <a onClick={() => setShowMenu(!showMenu)} href="#education" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                        <span>Education</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
+                    </a>
                     <a onClick={() => setShowMenu(!showMenu)} href="#skills" className="relative text-white/80 transition duration-300 hover:text-purple group">
                         <span>Skills</span>
                         <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
@@ -77,6 +89,10 @@ const Navbar = () => {
 
                     <a onClick={() => setShowMenu(!showMenu)} href="#experience" className="relative text-white/80 transition duration-300 hover:text-purple group">
                         <span>Experience</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a onClick={() => setShowMenu(!showMenu)} href="#volunteering" className="relative text-white/80 transition duration-300 hover:text-purple group">
+                        <span>Volunteering</span>
                         <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
                     </a>
                     <a onClick={() => setShowMenu(!showMenu)} href="#contact" className="relative text-white/80 transition duration-300 hover:text-purple group">

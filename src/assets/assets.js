@@ -7,10 +7,11 @@ import {
 import profileimg from "./profileimg.jpg";
 import jobImg from "./job.png"; 
 import coffeeImg from "./coffee.png";
+import dropout from "./dropoutpredictor.png";
 
 // Assets
 export const assets = {
-  profileimg,jobImg,coffeeImg
+  profileimg,jobImg,coffeeImg,dropout
 };
 
 // About Info
@@ -21,21 +22,45 @@ export const aboutinfo = [
     color: "text-purple",
   },
 ];
+// Education
+export const educationData = [
+  {
+    company: "University of Sri Jayewardenepura",
+    degree: "BSc (Hons) in Computer Science",
+    duration: "2023 - 2027"
+  },
+   {
+    company: "St.Paul's Girls' School Milagiria-Colombo 05 ",
+    degree: "",
+    duration: "2012-2021"
+  },
+
+];
 
 // Projects
 export const projects = [
   {
-    title: "Job Portal",
+    title: "SkillBridge Lanka",
     description: "A job portal designed to connect Sri Lankan students and NVQ holders with verified recruiters",
     image: jobImg, // use imported asset
-    tech: ["Java", "Spring Boot", "React"],
+    tech: ["RestAPI","Java", "Spring Boot", "Docker","Jenkins","JWT","Mysql","React"],
+    github: "https://github.com/SanduniS/SkillBridgeLankaapplication.git"  
   },
   {
-    title: "Coffee Project",
-    description: "A fun coffee-themed project.",
+    title: "Coffee Holics",
+    description: "A Tabel Reservation platform developed for a restaurant.",
     image: coffeeImg,
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["HTML", "CSS", "JavaScript","Java","Mysql"],
+    github: "" 
   },
+  {
+    title: "Dropout Predictor (Ongoing)",
+    description: "This is an End-to-End Machine Learning Pipeline for Student Dropout Prediction using attendance and academic performance data.",
+    image: dropout,
+    tech: [""],
+    github: "" 
+  },
+
 ];
 
 
@@ -44,41 +69,41 @@ export const skills = [
   {
     title: "Languages",
     tags: [
-      { name: "Java", icon: FaJava },
-      { name: "Python", icon: FaPython },
-      { name: "R", icon: SiR },
-      { name: "JavaScript", icon: SiJavascript },
+      { name: "Java" },
+      { name: "Python" },
+      { name: "R" },
+      { name: "JavaScript" },
     ],
   },
   {
     title: "Frameworks & Libraries",
     tags: [
-      { name: "Spring Boot", icon: SiSpringboot },
-      { name: "React.js", icon: FaReact },
-      { name: "Vite", icon: SiVite },
+      { name: "Spring Boot" },
+      { name: "React.js" },
+      { name: "Vite" },
     ],
   },
   {
     title: "Databases",
     tags: [
-      { name: "MySQL", icon: SiMysql },
+      { name: "MySQL" },
     ],
   },
   {
     title: "DevOps & Tools",
     tags: [
-      { name: "Git", icon: FaGitAlt },
-      { name: "GitHub", icon: FaGitAlt },
-      { name: "Jenkins", icon: SiJenkins },
-      { name: "Docker", icon: FaDocker },
-      { name: "Postman", icon: SiPostman },
+      { name: "Git"},
+      { name: "GitHub" },
+      { name: "Jenkins" },
+      { name: "Docker"},
+      { name: "Postman"},
     ],
   },
   {
     title: "Frontend & UI",
     tags: [
-      { name: "HTML", icon: FaHtml5 },
-      { name: "CSS", icon: FaCss3Alt },
+      { name: "HTML" },
+      { name: "CSS"},
     ],
   },
 ];
@@ -86,27 +111,54 @@ export const skills = [
 // Work Experience
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Intern",
+    company: "Sampath Bank PLC",
+    duration: "May 2022 - Jan 2023",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+      "I was responsible for managing daily bank operations while ensuring smooth and efficient service delivery. My role involved handling customer inquiries related to financial transactions and providing assistance with online banking facilities.",
+    color: "purple",
+  },
+  // {
+  //   role: "Web Developer",
+  //   company: "Digital Solutions LLC",
+  //   duration: "2018 - 2020",
+  //   description:
+  //     "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+  //   color: "pink",
+  // },
+  // {
+  //   role: "Junior Developer",
+  //   company: "StartUp Ventures",
+  //   duration: "2016 - 2018",
+  //   description:
+  //     "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+  //   color: "blue",
+  // },
+];
+// Volunteering
+export const volunteerData = [
+  {
+    role: "AI Awareness Speaker",
+    company: "",
+    duration: "Present",
+    description:
+      "Collaborated with my university lecturers to deliver interactive AI awareness sessions, guiding students to explore innovations and develop curiosity toward emerging technologies.",
     color: "purple",
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    role: "Assistant Secretary",
+    company: "Computer Science Association",
+    duration: "Feb 2025 -   Present",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-    color: "pink",
+      "I contributed to effective communication, documentation, and event planning while collaborating with team members to ensure smooth coordination and successful execution of association activities.",
+    color: "purple",
   },
-  {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue",
+   {
+    role: "Executive Committee Member",
+    company: "Computer Science Association",
+    duration: "Feb 2024 - Feb 2025",
+    description:"",
+    color: "purple",
   },
+ 
 ];

@@ -14,7 +14,7 @@ const About = () => {
     >
       <div className="container mx-auto px-6">
         {/* Heading */}
-        <h2 className="text-3xl font-bold text-center mb-4 text-gray-300">
+        <h2 className="text-3xl font-bold text-center mb-4 text-purple-500">
           About <span className="text-gray-300">Me</span>
         </h2>
         <p className="text-gray-300 text-center max-w-2xl mx-auto mb-10">
@@ -35,14 +35,12 @@ const About = () => {
           >
             <div className="rounded-2xl p-6">
               <p className="text-gray-300 mb-4 text-justify " >
-                I’m Sanduni Sathsarani, a third-year Computer Science undergraduate at the University of Sri Jayewardenepura, deeply passionate about Artificial Intelligence and Machine Learning.
+                I’m Sanduni Sathsarani, a third-year Computer Science undergraduate at the University of Sri Jayewardenepura, deeply passionate about Artificial Intelligence, Machine Learning, and public speaking.
               </p>
               <p className="text-gray-300 mb-4 text-justify">
-                My curiosity lies in exploring how intelligent systems can learn, adapt, and make decisions that transform industries and improve everyday life. I’m particularly interested in areas like deep learning, natural language processing, computer vision, few-shot learning, and predictive analytics.
-              </p>
+                My curiosity lies in exploring how intelligent systems can learn, adapt, and make decisions that transform industries and improve everyday life. I’m particularly interested in areas like deep learning, natural language processing, computer vision, few-shot learning, and predictive analytics. </p>
               <p className="text-gray-300 mb-4 text-justify">
-                I enjoy working on projects that combine data, algorithms, and creativity to uncover insights and build smart, efficient solutions. With a growing enthusiasm for AI research and real-world applications, I’m continuously learning, experimenting, and striving to contribute to the evolving field of intelligent technologies.
-              </p>
+                Beyond academics, I’m a passionate public speaker who enjoys sharing knowledge and inspiring others through AI awareness sessions and tech-related discussions. I also love working on projects that combine data, algorithms, and creativity to uncover insights and build smart, efficient solutions. With a growing enthusiasm for AI research and real-world applications, I’m continuously learning, experimenting, and striving to contribute to the evolving field of intelligent technologies. </p>
             </div>
           </motion.div>
         </div>
