@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="fixed w-full z-50 bg-dark-100/90 backdrop-blur-sm py-4 px-8 shadow-lg">
             <div className="container mx-auto flex justify-between items-center">
                 <div>
-                    <a href="#" className="text-3xl font-bold text-white">Sanduni<span className="text-purple">Sathsarani</span></a>
+                    <a href="#" className="text-1xl font-bold text-white">Sanduni<span className="text-purple">Sathsarani</span></a>
                     <div className="w-4 h-4 bg-purple rounded-full"></div>
                 </div>
 
