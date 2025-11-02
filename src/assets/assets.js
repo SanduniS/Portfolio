@@ -30,7 +30,7 @@ export const educationData = [
     duration: "2023 - 2027"
   },
    {
-    company: "St.Paul's Girls' School Milagiria-Colombo 05 ",
+    company: "St.Paul's Girls' School Milagiriya-Colombo 05 ",
     degree: "",
     duration: "2012-2021"
   },
