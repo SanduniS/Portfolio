@@ -137,14 +137,14 @@ export const workData = [
 ];
 // Volunteering
 export const volunteerData = [
-  {
-    role: "AI Awareness Speaker",
-    company: "",
-    duration: "Present",
-    description:
-      "Collaborated with my university lecturers to deliver interactive AI awareness sessions, guiding students to explore innovations and develop curiosity toward emerging technologies.",
-    color: "purple",
-  },
+  // {
+  //   role: "AI Awareness Speaker",
+  //   company: "",
+  //   duration: "Present",
+  //   description:
+  //     "Collaborated with my university lecturers to deliver interactive AI awareness sessions, guiding students to explore innovations and develop curiosity toward emerging technologies.",
+  //   color: "purple",
+  // },
   {
     role: "Assistant Secretary",
     company: "Computer Science Association",
